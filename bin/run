@@ -4,5 +4,5 @@ $LOAD_PATH.unshift(File.expand_path('../lib', __dir__))
 
 require 'app'
 
-name = ARGV.first || 'World'
-puts App.greet(name)
+input = ARGV.first || 'fixed_input_for_my_app'
+puts App.generate_avatar(input)
